@@ -11,7 +11,7 @@
 
 Alice loves Square-free integers. Whenever someone gives her an integer, she immmediately calculates the sum of E-values of all the square free divisors of the number. To test her love for Square-free integers, Bob givers her an array <a href="https://www.codecogs.com/eqnedit.php?latex=A=\{a_1,a_2,...,a_n\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?A=\{a_1,a_2,...,a_n\}" title="A=\{a_1,a_2,...,a_n\}" /></a> of positive integers such that <a href="https://www.codecogs.com/eqnedit.php?latex=a_i&space;>&space;1&space;,&space;\forall&space;i&space;\in&space;\{1,2,...,n\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_i&space;>&space;1&space;,&space;\forall&space;i&space;\in&space;\{1,2,...,n\}" title="a_i > 1 , \forall i \in \{1,2,...,n\}" /></a> . 
 
-He then makes <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?q" title="q" /></a> queries described by two integers <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?l" title="l" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> and askes Alice to tell him the <a href="https://www.codecogs.com/eqnedit.php?latex=E-value" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E-value" title="E-value" /></a> of the smallest number in the range 
+He then makes <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?q" title="q" /></a> queries described by two integers <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?l" title="l" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r" title="r" /></a> and askes Alice to tell him the E-sum of the smallest number in the range 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\[a_l,...,a_r&space;\]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\[a_l,...,a_r&space;\]" title="\[a_l,...,a_r \]" /></a>
 (both ends inclusive). But Alice is busy today, so  write a program to solve the problem for her.
 
@@ -27,7 +27,7 @@ The sum of <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank
 #### Output
 The output should contain <a href="https://www.codecogs.com/eqnedit.php?latex=t" target="_blank"><img src="https://latex.codecogs.com/gif.latex?t" title="q" /></a> lines. The <a href="https://www.codecogs.com/eqnedit.php?latex=i^{th}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i^{th}" title="i^{th}" /></a> line should contain <a href="https://www.codecogs.com/eqnedit.php?latex=q" target="_blank"><img src="https://latex.codecogs.com/gif.latex?q" title="q" /></a> space seperated integers - the answer to the <a href="https://www.codecogs.com/eqnedit.php?latex=q" target="_blank"><img src="https://latex.codecogs.com/gif.latex?q" title="q" /></a> queries of <a href="https://www.codecogs.com/eqnedit.php?latex=i^{th}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i^{th}" title="i^{th}" /></a> test case.
 
-#### Sample input
+# Sample input
 ```
 2
 1 1
@@ -44,4 +44,7 @@ The output should contain <a href="https://www.codecogs.com/eqnedit.php?latex=t"
 ```
 10 
 5 2 185
+```
+```
+In the first test case, we have just one element in the array, 6. Square free divisors of 6 are 1(E-value=1),2(E-value=1),3(E-value=4) and 6(E-value=4). So E-sum=1+1+4+4=10 
 ```
