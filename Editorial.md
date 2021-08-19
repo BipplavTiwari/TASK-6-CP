@@ -17,3 +17,7 @@ We are pretty much done. As a last bit of optimization save the value of <a href
 
 #### Time complexity
 
+The only precomutation innvolved are finding smallest prime factors on numbers which takes `O(MAX_N)` time using linear sieve. `(MAX_N=1000003)`
+
+Now for each test case we take `O(nlogn)` time in creating the sparse table, `q*log(MAX(A))` time(in worst case) to find the E-sum for given queries (since prime factorization+computing answer for a number k takes `O(logk)` time).
+So, time complexity per test case is `O(nlog(n) + q*log((MAX(A))` .
